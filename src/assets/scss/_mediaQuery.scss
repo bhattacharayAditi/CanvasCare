@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+  .header-section {
+    .container {
+      .logo img {
+        display: none;
+      }
+    }
+    .d-none {
+      display: block !important;
+    }
+
+    .nav-items {
+      li {
+        display: none !important;
+      }
+    }
+  }
+  .welbanner {
+    padding: 20px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #ecf1f0, #0f4d3e75),
+      url("../img/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .text {
+      padding: 15px;
+      .quote {
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: start;
+        line-height: 30px;
+        color: #1b6655;
+      }
+      .btn-signup {
+        background-color: #1b6655;
+        font-size: 14px;
+        color: #fff;
+        margin-right: 5px;
+        text-align: center;
+      }
+      .btn-down {
+        color: #1b6655;
+      }
+    }
+  }
+}

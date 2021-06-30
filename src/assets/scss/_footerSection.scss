@@ -1,0 +1,55 @@
+.footerSection {
+  padding: 30px;
+  background-color: $heading-color;
+  .appPromo {
+    padding: 2.5rem;
+    color: $color-white;
+  }
+  .btn2 {
+    .btn-signup {
+      background-color: $bg-navajo;
+      width: 120px;
+      color: $text-green !important;
+      transition: 0.5s;
+      margin-right: 18px !important;
+    }
+    .btn-signup:hover {
+      background-color: transparent;
+      border: 1px solid $bg-navajo !important;
+      color: $color-white !important;
+    }
+    .btn-outline-primary {
+      border: 2px solid $text-green !important;
+      width: 150px;
+      color: $color-white;
+      transition: 0.8s;
+    }
+    .btn-outline-primary:hover {
+      background-color: $bg-navajo !important;
+      color: $text-green;
+    }
+  }
+  .text-white-50 {
+    color: $color-white !important;
+  }
+  .list-elements {
+    a {
+      font-weight: 100;
+      color: $color-white-50 !important;
+    }
+  }
+  .social-Icons li {
+    display: inline;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: $bg-navajo-glass;
+  }
+  .social-Icons li {
+    i {
+      font-size: 14px !important;
+      color: $bg-navajo-light;
+
+      // transition: all 0.5s ease;
+    }
+  }
+}

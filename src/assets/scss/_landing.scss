@@ -1,0 +1,52 @@
+.welBanner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #fff, #1b665575);
+
+  .text {
+    padding: 45px 45px 25px 45px;
+    .quote {
+      padding-top: 10px;
+      font-size: 40px;
+      text-align: start;
+      color: $text-green;
+      line-height: 50px;
+    }
+    .motive {
+      font-size: 16.5px;
+      color: $text-green;
+    }
+  }
+
+  .row {
+    background-image: url(../img/1.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .ms-4 {
+    margin-left: 2rem !important;
+  }
+  .btn-signup {
+    background-color: $text-green;
+    width: 100px;
+    color: $white;
+    margin-right: 15px;
+    text-align: center;
+    transition: 0.5s ease-in;
+  }
+  .btn-signup:hover {
+    color: $text-green;
+    background-color: transparent;
+    border: 1px solid $text-green;
+  }
+  .btn-down {
+    color: $text-green;
+    transition: 0.8s ease-in;
+  }
+  .btn-down:hover {
+    color: $white;
+    background-color: $text-green!important;
+  }
+}

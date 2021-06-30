@@ -1,0 +1,35 @@
+.header-section {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items {
+    li {
+      display: inline;
+      margin-left: 10px;
+    }
+  }
+  .btn-register {
+    background-color: $bg-navajo;
+    width: 120px;
+    color: $text-green !important;
+    transition: 0.5s;
+  }
+  .btn-register:hover {
+    background-color: transparent;
+    border: 1px solid $text-green !important;
+    color: $text-green !important;
+  }
+  .btn-download {
+    border: 2px solid $text-green !important;
+    color: $text-green;
+    width: fit-content;
+    transition: 0.8s;
+  }
+  .btn-download:hover {
+    background-color: $bg-navajo !important;
+    color: $text-green;
+    border: 1px solid $bg-navajo !important;
+  }
+}

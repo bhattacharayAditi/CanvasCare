@@ -1,0 +1,55 @@
+.caringSection {
+  margin-top: 55px !important;
+  margin-bottom: 30px !important;
+  h3 {
+    color: $heading-color;
+    font-size: 33px;
+  }
+  p {
+    color: $text-green;
+    font-size: 14px;
+  }
+  .tbox-icon a {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #0f6458;
+    position: absolute;
+    left: 209px;
+    border: 1px solid #0f6458;
+  }
+  .p-05 {
+    padding: 0.05rem;
+  }
+  .timeline-content {
+    margin-top: 40px;
+  }
+  .mt-40 img {
+    margin-top: 60px;
+  }
+  .tbox-content {
+    position: relative;
+  }
+
+  .tbox-content::after {
+    content: "";
+    position: absolute;
+    top: calc(92px - 32px);
+    left: -73px;
+    width: 3px;
+    height: calc(85% - -53px);
+    background-color: #0f640f;
+  }
+  .box-content {
+    position: relative;
+  }
+  .box-content::after {
+    content: "";
+    position: absolute;
+    top: calc(92px - 32px);
+    left: -73px;
+    width: 3px;
+    height: calc(85% - -53px);
+    background-color: #0f640f;
+  }
+}

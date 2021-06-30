@@ -1,0 +1,326 @@
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header-section .nav-items li {
+  display: inline;
+  margin-left: 10px; }
+
+.header-section .btn-register {
+  background-color: #f3d2a0;
+  width: 120px;
+  color: #1b6655 !important;
+  transition: 0.5s; }
+
+.header-section .btn-register:hover {
+  background-color: transparent;
+  border: 1px solid #1b6655 !important;
+  color: #1b6655 !important; }
+
+.header-section .btn-download {
+  border: 2px solid #1b6655 !important;
+  color: #1b6655;
+  width: fit-content;
+  transition: 0.8s; }
+
+.header-section .btn-download:hover {
+  background-color: #f3d2a0 !important;
+  color: #1b6655;
+  border: 1px solid #f3d2a0 !important; }
+
+@media only screen and (max-width: 600px) {
+  .header-section .container .logo img {
+    display: none; }
+  .header-section .d-none {
+    display: block !important; }
+  .header-section .nav-items li {
+    display: none !important; }
+  .welbanner {
+    padding: 20px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #ecf1f0, #0f4d3e75), url("../img/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .welbanner .text {
+      padding: 15px; }
+      .welbanner .text .quote {
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: start;
+        line-height: 30px;
+        color: #1b6655; }
+      .welbanner .text .btn-signup {
+        background-color: #1b6655;
+        font-size: 14px;
+        color: #fff;
+        margin-right: 5px;
+        text-align: center; }
+      .welbanner .text .btn-down {
+        color: #1b6655; } }
+
+.welBanner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #fff, #1b665575); }
+  .welBanner .text {
+    padding: 45px 45px 25px 45px; }
+    .welBanner .text .quote {
+      padding-top: 10px;
+      font-size: 40px;
+      text-align: start;
+      color: #1b6655;
+      line-height: 50px; }
+    .welBanner .text .motive {
+      font-size: 16.5px;
+      color: #1b6655; }
+  .welBanner .row {
+    background-image: url(../img/1.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .welBanner .ms-4 {
+    margin-left: 2rem !important; }
+  .welBanner .btn-signup {
+    background-color: #1b6655;
+    width: 100px;
+    color: #fff;
+    margin-right: 15px;
+    text-align: center;
+    transition: 0.5s ease-in; }
+  .welBanner .btn-signup:hover {
+    color: #1b6655;
+    background-color: transparent;
+    border: 1px solid #1b6655; }
+  .welBanner .btn-down {
+    color: #1b6655;
+    transition: 0.8s ease-in; }
+  .welBanner .btn-down:hover {
+    color: #fff;
+    background-color: #1b6655 !important; }
+
+.right-choice {
+  margin-top: 55px !important; }
+  .right-choice h2 {
+    font-size: 33px;
+    margin-bottom: 25px; }
+  .right-choice .text-heading {
+    font-size: 33px;
+    font-weight: 100;
+    color: #1b6655; }
+  .right-choice .list-items li {
+    padding: 8px 0px; }
+  .right-choice .list-items i {
+    background-color: #a3e2d385;
+    border-radius: 50%;
+    padding: 9px; }
+  .right-choice .list-items a {
+    color: #1b6655; }
+  .right-choice .ps-5 {
+    padding: 5px !important; }
+  .right-choice .phone img {
+    width: 420px;
+    border-radius: 5px; }
+  .right-choice .learn {
+    margin-left: 30px; }
+  .right-choice .px-5 {
+    padding-right: 0rem !important; }
+
+.serviceSection .imgGet img {
+  width: 420px; }
+
+.serviceSection .p-4 {
+  padding: 6rem !important; }
+
+.serviceSection .service {
+  color: #1b6655; }
+  .serviceSection .service h2 {
+    font-size: 33px;
+    color: #095543;
+    margin-bottom: 30px !important; }
+  .serviceSection .service p {
+    margin-bottom: 28px; }
+
+.prevention .imgPrevention img {
+  width: 430px;
+  border-radius: 10px; }
+
+.prevention h2 {
+  color: #095543;
+  font-size: 33px; }
+
+.prevention .para {
+  font-size: 16px;
+  color: #1b6655;
+  padding: 15px 30px 10px 0px; }
+
+.prevention .p-5 {
+  padding: 1rem !important; }
+
+.prevention .listed li {
+  padding: 5px 0px; }
+
+.prevention .listed i {
+  background-color: #a3e2d385;
+  border-radius: 50%;
+  padding: 9px; }
+
+.downloadApp {
+  background-color: #f1bf74;
+  width: 1440px;
+  border-radius: 10px;
+  padding: 20px 20px 0px 20px;
+  color: #1b6655; }
+  .downloadApp .imgApp img {
+    width: 170px; }
+  .downloadApp .imgPromo img {
+    width: 140px; }
+  .downloadApp .text {
+    padding: 70px; }
+
+.cardSec {
+  margin-top: 30px !important;
+  color: #1b6655; }
+  .cardSec .animation-effect {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%; }
+  .cardSec .animation-effect:hover {
+    transform: scale(1);
+    border-radius: 5px;
+    box-shadow: -1px 3px 10px -1px rgba(118, 125, 132, 0.75); }
+
+.chargesSec {
+  margin-top: 55px; }
+  .chargesSec .container {
+    border-radius: 10px !important; }
+    .chargesSec .container h3 {
+      color: #095543; }
+    .chargesSec .container .charge_item_list2,
+    .chargesSec .container .charge_item_list1 {
+      color: #1b6655; }
+      .chargesSec .container .charge_item_list2 i,
+      .chargesSec .container .charge_item_list1 i {
+        color: #012c22; }
+  .chargesSec .charge_heading h3 {
+    margin-left: 20px; }
+  .chargesSec .bg-green {
+    background-color: #a3e2d385; }
+  .chargesSec .bg-darkgreen {
+    background-color: #1b6854a1; }
+  .chargesSec hr {
+    color: #012c22;
+    width: 800px; }
+  .chargesSec .sec-2 {
+    border-radius: 5px;
+    text-align: center;
+    padding: 47px;
+    width: 335px; }
+    .chargesSec .sec-2 .btn-success {
+      background-color: #1b6655 !important; }
+    .chargesSec .sec-2 span {
+      color: #013318; }
+
+.footerSection {
+  padding: 30px;
+  background-color: #095543; }
+  .footerSection .appPromo {
+    padding: 2.5rem;
+    color: #f5f5f5; }
+  .footerSection .btn2 .btn-signup {
+    background-color: #f3d2a0;
+    width: 120px;
+    color: #1b6655 !important;
+    transition: 0.5s;
+    margin-right: 18px !important; }
+  .footerSection .btn2 .btn-signup:hover {
+    background-color: transparent;
+    border: 1px solid #f3d2a0 !important;
+    color: #f5f5f5 !important; }
+  .footerSection .btn2 .btn-outline-primary {
+    border: 2px solid #1b6655 !important;
+    width: 150px;
+    color: #f5f5f5;
+    transition: 0.8s; }
+  .footerSection .btn2 .btn-outline-primary:hover {
+    background-color: #f3d2a0 !important;
+    color: #1b6655; }
+  .footerSection .text-white-50 {
+    color: #f5f5f5 !important; }
+  .footerSection .list-elements a {
+    font-weight: 100;
+    color: #f5f5f5ec !important; }
+  .footerSection .social-Icons li {
+    display: inline;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: #fffffe46; }
+  .footerSection .social-Icons li i {
+    font-size: 14px !important;
+    color: #f3d2a0c7; }
+
+.caringSection {
+  margin-top: 55px !important;
+  margin-bottom: 30px !important; }
+  .caringSection h3 {
+    color: #095543;
+    font-size: 33px; }
+  .caringSection p {
+    color: #1b6655;
+    font-size: 14px; }
+  .caringSection .tbox-icon a {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #0f6458;
+    position: absolute;
+    left: 209px;
+    border: 1px solid #0f6458; }
+  .caringSection .p-05 {
+    padding: 0.05rem; }
+  .caringSection .timeline-content {
+    margin-top: 40px; }
+  .caringSection .mt-40 img {
+    margin-top: 60px; }
+  .caringSection .tbox-content {
+    position: relative; }
+  .caringSection .tbox-content::after {
+    content: "";
+    position: absolute;
+    top: calc(92px - 32px);
+    left: -73px;
+    width: 3px;
+    height: calc(85% - -53px);
+    background-color: #0f640f; }
+  .caringSection .box-content {
+    position: relative; }
+  .caringSection .box-content::after {
+    content: "";
+    position: absolute;
+    top: calc(92px - 32px);
+    left: -73px;
+    width: 3px;
+    height: calc(85% - -53px);
+    background-color: #0f640f; }
+
+/* common CSS file setting*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #1b6655; }
+
+ul li {
+  list-style: none; }
+
+body {
+  overflow-x: hidden; }
+
+.bg-navajo {
+  background-color: #f3d2a0; }

@@ -1,0 +1,21 @@
+.serviceSection {
+  .imgGet {
+    img {
+      width: 420px;
+    }
+  }
+  .p-4 {
+    padding: 6rem !important;
+  }
+  .service {
+    color: $text-green;
+    h2 {
+      font-size: 33px;
+      color: $heading-color;
+      margin-bottom: 30px !important;
+    }
+    p {
+      margin-bottom: 28px;
+    }
+  }
+}

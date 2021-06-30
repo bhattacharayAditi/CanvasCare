@@ -1,0 +1,33 @@
+@import "color";
+@import "_header";
+@import "mediaQuery";
+@import "landing";
+@import "rightChoice";
+@import "servicesection";
+@import "prevention";
+@import "downloading";
+@import "chargesSection";
+@import "footerSection";
+@import "timeline";
+
+/* common CSS file setting*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: $text-green;
+}
+ul li {
+  list-style: none;
+}
+body {
+  overflow-x: hidden;
+}
+.bg-navajo {
+  background-color: $bg-navajo;
+}

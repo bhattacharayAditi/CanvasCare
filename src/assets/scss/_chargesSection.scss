@@ -1,0 +1,41 @@
+.chargesSec {
+  .container {
+    border-radius: 10px !important;
+    h3 {
+      color: $heading-color;
+    }
+    .charge_item_list2,
+    .charge_item_list1 {
+      color: $text-green;
+      i {
+        color: $underline-darkGreen;
+      }
+    }
+  }
+  .charge_heading h3 {
+    margin-left: 20px;
+  }
+  margin-top: 55px;
+  .bg-green {
+    background-color: $bg-light-green;
+  }
+  .bg-darkgreen {
+    background-color: $bg-dark-green;
+  }
+  hr {
+    color: $underline-darkGreen;
+    width: 800px;
+  }
+  .sec-2 {
+    border-radius: 5px;
+    text-align: center;
+    padding: 47px;
+    width: 335px;
+    .btn-success {
+      background-color: $button-green !important;
+    }
+    span {
+      color: $price-darkGreen;
+    }
+  }
+}
